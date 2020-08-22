@@ -1,0 +1,78 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin:1rem;
+}
+
+.to-do__decoration-button {
+  background-color: rgb(251, 245, 245);
+  height: 2rem;
+  width: 15rem; 
+  border:2px solid rgb(46, 124, 56);
+  text-align: center;
+  border-radius: 10px;
+  margin-left:-1rem;
+  margin-top: -2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(30, 71, 30);
+}
+
+.todo-list__form {
+  background-color: rgb(46, 124, 56);
+  padding-top: 2rem 2rem 2rem 2rem;
+  border-radius:10px;
+ display:flex; 
+ flex-direction: column;
+ padding:1rem 2rem 1rem 2rem;
+ width: 38rem;
+ margin-left:4rem;
+ margin-top: 2rem;
+}
+
+.todo-list__button {
+  background-color: rgb(251, 245, 245);
+  height: 2rem;
+  width: 6rem; 
+  border:1px solid rgb(96, 139, 94);
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 1rem;
+  padding: .5rem;
+  font-family: 'Zilla Slab', serif;
+  font-weight: bold;
+  color: rgb(30, 71, 30);
+}
+
+.todo-list__button:hover {
+  background-color: grey;
+  border:2px solid;
+  cursor: pointer;
+}
+
+.todo-list__title {
+  padding:.5rem;
+  border-radius:10px ;
+  margin:.5rem;
+}
+
+.todo-list__description {
+  padding:.5rem;
+  border-radius:10px ;
+  margin:.5rem;
+}
+
+/*------MOBILE VERSION-----*/
+@media only screen and (max-width: 870px){
+  .todo-list__form {
+    width: 24rem;
+    margin-left: 7rem;
+  }
+  .task-list {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+} 

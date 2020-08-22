@@ -1,0 +1,64 @@
+.task-list {
+list-style: none;
+width: 40rem;
+text-align: center;
+margin-top:1.5rem;
+margin-left:0;
+}
+
+.task {
+  background-color: rgb(180, 187, 84);
+  width: 40rem;
+  height: 5rem;
+  padding-top: 3rem;
+  padding-bottom:3rem;
+  border-radius:10px;
+  padding-left: 1rem;
+  padding-right:1rem;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.task-button { display:none; }
+
+.done { background-color: rgb(180, 187, 168)}
+
+.done h1, 
+.done p {
+   text-decoration: line-through;
+   color: rgb(70, 67, 67);
+  }
+
+.done button:hover {
+    background-color: grey;
+    border:2px solid;
+    cursor: pointer;
+  }
+
+.done button {
+  display: block;
+  border:1px solid rgb(102, 105, 105);
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 1rem 0 1rem;
+  height: 2rem;
+  width: 7rem;
+  margin-left: 1.5rem;
+  font-family: 'Zilla Slab', serif;
+  font-weight: bold;
+  color: rgb(30, 71, 30);
+}
+
+.task-header {
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 2px;
+  margin-top: .1rem;
+}
+
+/*------MOBILE VERSION-----*/
+@media only screen and (max-width: 870px){
+  .task {
+    width: 26rem;
+    margin-left: 4.5rem;
+  }
+}
