@@ -23,4 +23,4 @@ This is a simple classic to-do list exercise  created using the React library.
 - **Install packages: npm install**
 - **Run this command in your terminal 'npm start'**
 - **View the application in the browser(http://localhost:3000)**
-
+- **Preview of the app is available on Netlify [here](https://todo-react1.netlify.app/)**
