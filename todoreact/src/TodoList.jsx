@@ -57,7 +57,9 @@ class TodoList extends Component {
     return (
       <section className="todo-list ">
         <form className="todo-list__form" onSubmit={this.addItem}>
+        <div>
           <button className="to-do__decoration-button">Register new todo</button>
+        </div>
           <input ref={(titleElement) => this._titleElement = titleElement} 
             placeholder=" Enter Task Name" className="todo-list__title"/>
           <input ref={(descElement) => this._descriptionElement = descElement} 

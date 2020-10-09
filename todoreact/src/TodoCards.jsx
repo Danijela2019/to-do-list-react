@@ -20,7 +20,7 @@ class TodoCards extends Component {
   createTasks(item){
     const className = item.done ? 'task done' : 'task';
     return (
-      <li className={className} onClick={() => this.toggle(item.key)} key={item.key}>
+      <li className={`${className} task-card`}  onClick={() => this.toggle(item.key)} key={item.key}>
         <h1 className="task-header">{item.text}</h1>
         <p className="task-paragraph">{item.description}</p>
         <button className="task-button" onClick ={(event) => this.delete(item.key, event)}>Remove</button>
@@ -33,4 +33,4 @@ class TodoCards extends Component {
     return <ul className="task-list">{listItems}</ul>
   }
 }
-export default TodoCards;
+export default TodoCards; 

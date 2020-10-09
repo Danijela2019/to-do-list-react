@@ -1,18 +1,37 @@
-body {
-  margin:0;
-  padding: 0;
-  background: linear-gradient(60deg, #27332a  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #31614d 60%, #39926d 60%);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  
+}body {
+  background-color: #27332a;
+ 
+}
+  /*background: linear-gradient(60deg, #27332a  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #31614d 60%, #39926d 60%);
   font-family: sans-serif;
   height: 100vh;
-  width: 100vw;
+  width: 100vw;*/
 
-}
 /*------MOBILE VERSION-----*/
 @media only screen and (max-width: 870px){
   body {
-    margin:0;
-    padding: 0;
-    background:rgb(50, 63, 50);
+   background:rgb(50, 63, 50);
   }
 }
   
