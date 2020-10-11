@@ -9,12 +9,18 @@ align-items: center;
   background-color: rgb(180, 187, 84);
   border-radius:10px;
   width: 42rem;
-  height:10rem;
+  min-height:10rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 
 .task-button { 
   display:none;
@@ -54,12 +60,23 @@ align-items: center;
   font-family: 'Do Hyeon', sans-serif;
   letter-spacing: 3px;
   margin-top: 1rem;
+  margin-left: .5rem;
   font-size: 2rem;
+  overflow-wrap: normal;
+  overflow: hidden;
+}
+  .task-paragraph{
+  margin-left: .5rem;
 }
 
 /*------MOBILE VERSION-----*/
 @media only screen and (max-width: 870px){
   .task {
-    width: 18rem;
+    width: 16rem;
+    margin: 1rem;
+  }
+  .task-header {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
   }
 }
