@@ -2,11 +2,6 @@
 
 This is a simple classic to-do list exercise  created using the React library.
 
-| ![Todo](Desktop.png) |
-|:---:|
-| Desktop version |
-
-
 ## Functionalities:
 * There is a form input where the user can add a new todo.
 * On first load the list of todos is empty.
